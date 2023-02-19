@@ -10,7 +10,7 @@ int main(void)
 
 	int c;
 	int d;
-	int e = 0;
+	int e;
 
 	while (e < 10)
 	{
