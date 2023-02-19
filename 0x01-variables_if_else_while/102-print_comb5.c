@@ -24,12 +24,12 @@ int main(void)
 		while (c2 <= 99)
 		{
 			f_d2 = (c2 / 10 + '0');
-			l_d2 = (c2 % 10 = '0');
+			l_d2 = (c2 % 10 + '0');
 
 			if (c < c2)
 			{
 				putchar(f_d);
-				putchar(f_l);
+				putchar(f_d);
 				putchar(' ');
 				putchar(f_d2);
 				putchar(l_d2);
@@ -42,7 +42,7 @@ int main(void)
 			}
 			c2++;
 		}
-		c++
+		c++;
 	}
 	putchar('\n');
 	return (0);
