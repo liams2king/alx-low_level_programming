@@ -4,7 +4,6 @@
  * main - Test function for positive or negative
  * Return: 0
  */
-
 int main(void)
 
 {
@@ -12,6 +11,5 @@ int main(void)
 
 	i = 0;
 	positive_ornegative(i);
-
-return (0);
+	return (0);
 }
