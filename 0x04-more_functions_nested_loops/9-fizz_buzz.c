@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (x % 5 == 0)
 	{
-	pritf(« Buzz »);
+	pritf("Buzz");
 	}
 	else
 	{
@@ -34,6 +34,6 @@ int main(void)
 	printf(" ");
 	}
 	}
-	printf(« \n »);
+	printf("\n");
 	return (0);
 }
