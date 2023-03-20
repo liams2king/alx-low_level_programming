@@ -4,7 +4,7 @@
 /**
  * struct dog - Dog attributes
  * @name: The name of the dog.
- * @age: The age of athe gog.
+ * @age: The age of the gog.
  * @owner: The owner of the dog.
  */
 
