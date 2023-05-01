@@ -3,10 +3,10 @@
 
 
 /**
- * print_listint - prints all the elements of a listint_t list
- * @h: head of link list node
+ * print_listint - prints all elements of a list of type listin_t.
+ * @h: Pointer to the first item in the list.
  *
- * Return: the number of nodes
+ * Return: The number of items in the list.
  */
 
 size_t print_listint(const listint_t *h)
