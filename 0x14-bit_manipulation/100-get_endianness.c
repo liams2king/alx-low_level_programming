@@ -10,9 +10,14 @@
  * Return: 1 for little endian, 0 for big endian
  */
 
+
 int get_endianness(void)
 {
-    unsigned int x = 1;
-    char *c = (char*)&x;
-    return (int)*c;
+	unsigned int i = 1;
+	char *c = (char *) &i;
+
+	if (*c)
+		return (1);
+	else
+		return (0);
 }
