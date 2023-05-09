@@ -2,7 +2,7 @@
 
 /**
  * create_file - Create a file and write a string to it
- * @filename: Name of the file to create
+ * @filename: Name of the file to created
  * @text_content: String to write to the file
  *
  * Return: On success, returns 1. On failure, returns -1.
