@@ -8,21 +8,21 @@
  * Return: On success, returns 1. On failure, returns -1.
  */
 
-int create_file(const char *file_name, char *text)
+int create_file(const char *filename, char *text_content)
 {
 	int file_descriptor, bytes_written, len = 0;
 
-	if (file_name == NULL)
+	if (filename == NULL)
 		return (-1);
 
-	if (text != NULL)
+	if (text_content != NULL)
 	{
-		while (text[len] != '\0')
+		while (text_content[len] != '\0')
 			len++;
 	}
 
-	file_descriptor = open(file_name, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	bytes_written = write(file_descriptor, text, len);
+	file_descriptor = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	bytes_written = write(file_descriptor, text_content, len);
 
 	if (file_descriptor == -1 || bytes_written == -1)
 		return (-1);
